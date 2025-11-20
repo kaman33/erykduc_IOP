@@ -1,10 +1,15 @@
 #include <iostream>
 using namespace std;
-int main(){
 
-	int n;
-	cin >> n;
-	cout << n;
+int main() {
+    int x;
+    cin >> x;
 
-	return 0;
+    if (x <= 0) {
+        cout << "Blad: liczba musi byc dodatnia.\n";
+        return 0;
+    }
+
+    cout << x << endl;
 }
+
