@@ -15,24 +15,18 @@ int main(){
 
 	int n;
 	cin >> n;
-	cout << n;
-	if(czy_doskonala(n))
-		cout << "jest doskonala\n";
-	else
-		cout << "nie jest doskonala\n";
-
-int main() {
-    int x;
-    cin >> x;
-
-int main() {
-    int x;
-    cin >> x;
-    if (x <= 0) {
+	
+	if (n <= 0) {
         cout << "Blad: liczba musi byc dodatnia.\n";
         return 0;
+	}
+
+	if(czy_doskonala(n)){
+		cout << "jest doskonala\n";
+	}
+	else{
+		cout << "nie jest doskonala\n";
+
     }
 
-    cout << x << endl;
 }
-
